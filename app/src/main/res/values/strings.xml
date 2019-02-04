@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WebServiceClient</string>
+    <color name="colorBackground">#DDDDDD</color>
 </resources>
