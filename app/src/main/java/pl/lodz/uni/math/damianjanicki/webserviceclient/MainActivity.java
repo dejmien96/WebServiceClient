@@ -8,13 +8,14 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    public final static String API_URL="https://jsonplaceholder.typicode.com/posts/";
+    public final static String API_URL="https://jsonplaceholder.typicode.com/posts/";  //JSON Place Holder to strona udostępniająca Fake REST API
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //przypisujemy zmienne do kazdego przycisku i ustawiamy listenera, ktory wykrywa klikniecie na przycisk i wywoluje metode onClick
         Button buttonGET = findViewById(R.id.buttonGET);
         buttonGET.setOnClickListener(buttonGetOnClickListener);
 

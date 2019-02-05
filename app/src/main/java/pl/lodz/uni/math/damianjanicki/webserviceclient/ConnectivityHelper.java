@@ -4,7 +4,7 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-public class ConnectivityHelper {
+public class ConnectivityHelper {  //klasa służy do sprawdzenie czy nasz telefon ma polaczenie z internetem, to gotowy kod ze stackoverflow
     public static boolean isConnectedToNetwork(Context context) {
         ConnectivityManager connectivityManager =
                 (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
